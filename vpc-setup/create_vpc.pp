@@ -94,7 +94,7 @@ ec2_vpc_routetable { $routes_name:
       gateway                => 'local',
     },
     {
-      destination_cidr_block => '164.67.224.0/24',
+      destination_cidr_block => '0.0.0.0/0',
       gateway                => $igw_name,
     },
   ],
