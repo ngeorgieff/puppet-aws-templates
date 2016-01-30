@@ -3,15 +3,15 @@
 # VPC, three subnets, an internet gateway, default routes between all subnets and access to the internet
 # By default all subnets auto map to public IP on launch
 $created_by           = 'Nikolay Georgieff'
-$department           = 'engineering'
-$project              = 'awsdemo'
+$department           = 'sysops'
+$project              = 'lab'
 $env_name	      = 'development'
 $key_name             = 'engineering-lab'
 $region_name          = 'us-west-2'
-$vpc_mask             = '10.91.0.0'
-$zone_a_mask          = '10.91.10.0'
-$zone_b_mask          = '10.91.20.0'
-$zone_c_mask          = '10.91.30.0'
+$vpc_mask             = '10.92.0.0'
+$zone_a_mask          = '10.92.10.0'
+$zone_b_mask          = '10.92.20.0'
+$zone_c_mask          = '10.92.30.0'
 # Do not touch anything below this line
 $vpc_name             = "${project}-${department}"
 $igw_name             = "${vpc_name}-igw"
